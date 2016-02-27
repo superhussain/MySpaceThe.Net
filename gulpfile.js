@@ -64,6 +64,18 @@ gulp.task('serve', function() {
     }));
 });
 
+// deploy task
+gulp.task('deploy', function() {
+  gulp.src('./')
+    .pipe(serve({
+      host: '100.113.192.38',
+      port: '80',
+      directoryListing: false,
+      open: true,
+      path: '/'
+    }));
+});
+
 // watch task
 gulp.task('watch', function() {
   var server = livereload();
