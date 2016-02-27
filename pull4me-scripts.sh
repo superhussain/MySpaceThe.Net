@@ -1,3 +1,5 @@
 #!/bin/bash
-mkdir hello
-cd hello
+sudo -s
+cd myspacethenet
+git checkout master
+git pull
