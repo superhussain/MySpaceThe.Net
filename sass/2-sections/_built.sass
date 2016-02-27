@@ -1,0 +1,29 @@
+section#built
+  .wrapper
+    display: flex
+    top: calc(50% + 200vh)
+    width: 100%
+    max-width: 100%
+    overflow: hidden
+    .half
+      display: block
+      width: 50%
+      height: 100vh
+      background-repeat: no-repeat
+      background-size: cover
+      a
+        display: block
+        height: 100vh
+        position: relative
+        padding-top: calc(50vh - 1.25em)
+        font-size: 2.5em
+        font-family: "Roboto Slab"
+        text-shadow: 3px 3px 0px rgba($black,0.4)
+        &:hover
+          background-color: rgba($white,0.5)
+    .chrome
+      background-image: url(../img/chrome-blur.jpg)
+      background-position: right
+    .dev
+      background-image: url(../img/dev-blur.jpg)
+      background-position: left
