@@ -1,5 +1,5 @@
 # MySpaceThe.Net
-A SpartaHack Creation
+A chrome extension, a deployment tool, and an epic website! What a weekend!
 
 ##Inspiration
 Coming into SpartaHack, we didn't know what we wanted to make so we decided to instead have fun with this and go with any idea that we thought would be enjoyable for us! We came up with two ideas: MySpaceThe.Net and Pull4Me! The former being a Google Chrome Extension and the latter being a development tool.
@@ -27,10 +27,4 @@ Matthew - I have never made a chrome extension before and there was a huge learn
 Not building one, not two, but THREE epic things over the past couple of days!
 
 ##What I learned
-We learned a lot including: ...
-
-##What's next for MySpaceThe.Net
-...
-
-##Built With
-...
+We learned a lot including how to use Clarifai's API, Giphy's API, using Microsoft Azure's Cloud Service, scripting in BASH, making a google chrome extension ans so much more!
