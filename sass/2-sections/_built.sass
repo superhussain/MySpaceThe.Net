@@ -1,21 +1,23 @@
 section#built
+  min-height: 100vh
   .wrapper
     display: flex
+    flex-direction: column
     top: calc(50% + 200vh)
     width: 100%
     max-width: 100%
     overflow: hidden
     .half
       display: block
-      width: 50%
-      height: 100vh
+      width: 100%
+      height: 50vh
       background-repeat: no-repeat
       background-size: cover
       a
         display: block
-        height: 100vh
+        height: 28vh
         position: relative
-        padding-top: calc(50vh - 1.25em)
+        padding-top: calc(30vh - 1.25em)
         font-size: 2.5em
         font-family: "Roboto Slab"
         text-shadow: 3px 3px 0px rgba($black,0.4)
@@ -23,7 +25,7 @@ section#built
           background-color: rgba($white,0.5)
     .chrome
       background-image: url(../img/chrome-blur.jpg)
-      background-position: right
+      background-position: center right
     .dev
       background-image: url(../img/dev-blur.jpg)
-      background-position: left
+      background-position: center left

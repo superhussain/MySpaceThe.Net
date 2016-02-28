@@ -2,6 +2,7 @@
   jQuery(document).ready(function ($) {
     pageScroll();
     scroll();
+    hamburger();
   });
 })(jQuery);
 
@@ -40,11 +41,18 @@ var pageScroll = function () {
   });
 }
 
-var scroll = function () {
+var scroll = function() {
   $(".scroll").click(function (event) { // When a link with the .scroll class is clicked
     event.preventDefault(); // Prevent the default action from occurring
     $('html,body').animate({
       scrollTop: $(this.hash).offset().top
     }, 500); // Animate the scroll to this link's href value
+  });
+}
+
+var hamburger = function() {
+  $('.hamburger-menu').on('click', function() {
+    $('.bar').toggleClass('animate');
+    $('nav ul.navbar').slideToggle('slow');
   });
 }

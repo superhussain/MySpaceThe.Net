@@ -7,13 +7,17 @@
 //1-base
 @import
   "1-base/vars",
-  "1-base/body";
+  "1-base/body",
+  "1-base/nav";
 
 //2-sections
 @import
-  "2-sections/nav",
   "2-sections/landing",
   "2-sections/tease",
   "2-sections/built",
   "2-sections/chrome",
   "2-sections/dev";
+
+//3-modules
+@import
+  "3-modules/hamburger";

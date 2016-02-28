@@ -108,3 +108,20 @@ body
   height: 1%
 .clearfix
   display: block
+
+
+// section clearfix hack
+
+section:after
+  visibility: hidden
+  display: block
+  font-size: 0
+  content: " "
+  clear: both
+  height: 0
+  section
+  display: inline-block
+* html section
+  height: 1%
+section
+  display: block
